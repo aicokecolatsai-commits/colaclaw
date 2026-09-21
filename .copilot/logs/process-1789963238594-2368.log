@@ -1,0 +1,116 @@
+2026-09-21T04:00:39.014Z [INFO] Session indexing debug: SESSION_INDEXING=false, repository=undefined, savedIndexingLevel=undefined
+2026-09-21T04:00:39.072Z [INFO] Workspace initialized: 01012321-5be3-49f5-9a64-badb7443d193 (checkpoints: 0)
+2026-09-21T04:00:39.078Z [INFO] Session indexing debug: showSessionSyncPrompt=false
+2026-09-21T04:00:39.078Z [INFO] Starting Copilot CLI: 1.0.27
+2026-09-21T04:00:39.078Z [INFO] Node.js version: v24.11.1
+2026-09-21T04:00:39.804Z [ERROR] Starting remote MCP client for github-mcp-server with url: https://api.individual.githubcopilot.com/mcp/readonly
+2026-09-21T04:00:39.807Z [ERROR] Creating MCP client for github-mcp-server...
+2026-09-21T04:00:39.808Z [ERROR] Connecting MCP client for github-mcp-server...
+2026-09-21T04:00:40.230Z [ERROR] MCP client for github-mcp-server connected, took 422ms
+2026-09-21T04:00:40.231Z [ERROR] MCP server github-mcp-server provided instructions: The GitHub MCP Server provides tools to interact with GitHub platform.
+
+Tool selection guidance:
+	1....
+2026-09-21T04:00:40.231Z [ERROR] Started MCP client for remote server github-mcp-server
+2026-09-21T04:00:40.232Z [ERROR] GitHub MCP server configured after authentication
+2026-09-21T04:00:40.927Z [INFO] Memory enablement check: enabled
+2026-09-21T04:00:41.471Z [INFO] Memory enablement check: enabled
+2026-09-21T04:00:42.540Z [INFO] Memory enablement check: enabled
+2026-09-21T04:00:43.031Z [INFO]  
+2026-09-21T04:00:43.031Z [INFO] --- Start of group: configured settings: ---
+2026-09-21T04:00:43.031Z [INFO] --- End of group ---
+2026-09-21T04:00:43.409Z [INFO]  
+2026-09-21T04:00:43.409Z [INFO] --- Start of group: configured settings: ---
+2026-09-21T04:00:43.409Z [INFO] --- End of group ---
+2026-09-21T04:00:43.414Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-09-21T04:00:43.414Z [INFO] --- End of group ---
+2026-09-21T04:00:44.234Z [INFO] CompactionProcessor: Utilization 9.0% (24518/272000 tokens) below threshold 80%
+2026-09-21T04:00:44.341Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-09-21T04:00:44.392Z [ERROR] error (Request-ID 3411:10E3CC:1C845C4:2A34127:6AB0ABEB)
+2026-09-21T04:00:44.393Z [ERROR] {
+  "status": 400,
+  "headers": {},
+  "requestID": "00000-710f47d7-5e35-4a77-8e49-826a6f8c0a04",
+  "error": {
+    "message": "The requested model is not supported.",
+    "code": "model_not_supported",
+    "param": "model",
+    "type": "invalid_request_error"
+  },
+  "code": "model_not_supported",
+  "param": "model",
+  "type": "invalid_request_error",
+  "request_id": "00000-710f47d7-5e35-4a77-8e49-826a6f8c0a04",
+  "ghRequestId": "3411:10E3CC:1C845C4:2A34127:6AB0ABEB",
+  "name": "CAPIError",
+  "message": "400 The requested model is not supported.",
+  "stack": "CAPIError: 400 The requested model is not supported.\n    at t.fromAPIError (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2082:1048)\n    at Idt.getCompletionWithTools (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2082:11934)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async KZe.getCompletionWithTools (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2094:2742)\n    at async t.runAgenticLoop (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2603:3046)\n    at async t.processQueuedItems (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2601:9035)\n    at async t.processQueue (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2601:3027)\n    at async t.send (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2599:4033)\n    at async asa (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:6698:2232)\n    at async mSt (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:6657:662)"
+}
+2026-09-21T04:00:45.484Z [INFO] --- End of group ---
+2026-09-21T04:00:45.540Z [INFO] CompactionProcessor: Utilization 9.0% (24518/272000 tokens) below threshold 80%
+2026-09-21T04:00:45.646Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-09-21T04:00:45.682Z [ERROR] error (Request-ID 3411:10E3CC:1C847E4:2A34410:6AB0ABEC)
+2026-09-21T04:00:45.682Z [ERROR] {
+  "status": 400,
+  "headers": {},
+  "requestID": "00000-d21e111c-c44e-42d2-8076-6e0d0a06da84",
+  "error": {
+    "message": "The requested model is not supported.",
+    "code": "model_not_supported",
+    "param": "model",
+    "type": "invalid_request_error"
+  },
+  "code": "model_not_supported",
+  "param": "model",
+  "type": "invalid_request_error",
+  "request_id": "00000-d21e111c-c44e-42d2-8076-6e0d0a06da84",
+  "ghRequestId": "3411:10E3CC:1C847E4:2A34410:6AB0ABEC",
+  "name": "CAPIError",
+  "message": "400 The requested model is not supported.",
+  "stack": "CAPIError: 400 The requested model is not supported.\n    at t.fromAPIError (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2082:1048)\n    at Idt.getCompletionWithTools (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2082:11934)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async KZe.getCompletionWithTools (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2094:2742)\n    at async t.runAgenticLoop (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2603:3046)\n    at async t.processQueuedItems (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2601:9035)\n    at async t.processQueue (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2601:3027)\n    at async t.send (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2599:4033)\n    at async asa (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:6698:2232)\n    at async mSt (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:6657:662)"
+}
+2026-09-21T04:00:46.857Z [INFO] --- End of group ---
+2026-09-21T04:00:46.913Z [INFO] CompactionProcessor: Utilization 9.0% (24518/272000 tokens) below threshold 80%
+2026-09-21T04:00:47.018Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-09-21T04:00:47.094Z [ERROR] error (Request-ID 3411:10E3CC:1C849D5:2A346E2:6AB0ABED)
+2026-09-21T04:00:47.095Z [ERROR] {
+  "status": 400,
+  "headers": {},
+  "requestID": "00000-f34e094d-1fd4-438a-8d73-185b3c31b3ae",
+  "error": {
+    "message": "The requested model is not supported.",
+    "code": "model_not_supported",
+    "param": "model",
+    "type": "invalid_request_error"
+  },
+  "code": "model_not_supported",
+  "param": "model",
+  "type": "invalid_request_error",
+  "request_id": "00000-f34e094d-1fd4-438a-8d73-185b3c31b3ae",
+  "ghRequestId": "3411:10E3CC:1C849D5:2A346E2:6AB0ABED",
+  "name": "CAPIError",
+  "message": "400 The requested model is not supported.",
+  "stack": "CAPIError: 400 The requested model is not supported.\n    at t.fromAPIError (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2082:1048)\n    at Idt.getCompletionWithTools (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2082:11934)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async KZe.getCompletionWithTools (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2094:2742)\n    at async t.runAgenticLoop (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2603:3046)\n    at async t.processQueuedItems (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2601:9035)\n    at async t.processQueue (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2601:3027)\n    at async t.send (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2599:4033)\n    at async asa (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:6698:2232)\n    at async mSt (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:6657:662)"
+}
+2026-09-21T04:00:47.095Z [ERROR] Retry after is not set. Giving up.
+2026-09-21T04:00:47.095Z [ERROR] error
+2026-09-21T04:00:47.095Z [ERROR] {
+  "status": 400,
+  "headers": {},
+  "requestID": "00000-f34e094d-1fd4-438a-8d73-185b3c31b3ae",
+  "error": {
+    "message": "The requested model is not supported.",
+    "code": "model_not_supported",
+    "param": "model",
+    "type": "invalid_request_error"
+  },
+  "code": "model_not_supported",
+  "param": "model",
+  "type": "invalid_request_error",
+  "request_id": "00000-f34e094d-1fd4-438a-8d73-185b3c31b3ae",
+  "ghRequestId": "3411:10E3CC:1C849D5:2A346E2:6AB0ABED",
+  "name": "CAPIError",
+  "message": "400 The requested model is not supported.",
+  "stack": "CAPIError: 400 The requested model is not supported.\n    at t.fromAPIError (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2082:1048)\n    at Idt.getCompletionWithTools (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2082:11934)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async KZe.getCompletionWithTools (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2094:2742)\n    at async t.runAgenticLoop (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2603:3046)\n    at async t.processQueuedItems (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2601:9035)\n    at async t.processQueue (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2601:3027)\n    at async t.send (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2599:4033)\n    at async asa (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:6698:2232)\n    at async mSt (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:6657:662)"
+}
+2026-09-21T04:00:47.095Z [INFO] --- End of group ---
