@@ -1,0 +1,10 @@
+id: bd49166a-1832-4ab1-848d-3624c1e8c0c4
+cwd: /home/runner/work/colaclaw/colaclaw
+git_root: /home/runner/work/colaclaw/colaclaw
+repository: aicokecolatsai-commits/colaclaw
+host_type: github
+branch: issue-2
+summary_count: 0
+created_at: 2026-10-07T04:01:27.927Z
+updated_at: 2026-10-07T04:01:32.337Z
+summary: "請將最終結果寫入 artifacts/6030638617/result.md 。我的提示詞為: 我要用gemini-deep-researcher給我最新1天所查到的數位健康的新聞資訊與相對應連結，每則資訊都要翻譯成中文"
